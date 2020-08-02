@@ -1,0 +1,25 @@
+body {
+  background-color: #eee !important;
+}
+
+.buttons {
+  grid-area: buttons;
+  place-self: center;
+}
+
+.head {
+  grid-area: head;
+  place-self: center;
+}
+
+.buttonHolder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 70% auto;
+  grid-template-areas:
+    ". head head ."
+    ". buttons buttons .";
+  height: 200px;
+  width: 800px;
+  margin: auto;
+}

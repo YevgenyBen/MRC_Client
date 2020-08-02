@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.MuiTableHead-root .MuiTableCell-root {
+  padding: 5px 0px 5px 0px !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800 !important;
+  min-height: 700px !important;
+}
+.MuiTable-root .MuiTableBody-root .MuiTableRow-root .MuiTableCell-root {
+  padding: 0px 5px 0px 0px !important;
+  font-family: "Montserrat", sans-serif;
+}
+.MuiTable-root {
+  height: 598px !important;
+}
+/* .MuiButtonBase-root.MuiIconButton-root {
+  padding: 5px 0px 5px 0px !important;
+} */
+/* .MuiTableCell-sizeSmall {
+  padding: 15px !important;
+} */
+
+/* td {
+  border: 1px solid rgb(224, 218, 218);
+}
+
+th {
+  border-right: 1px solid rgb(224, 218, 218);
+} */
+
+/* tr {
+  max-height: 10px !important;
+} */
+
+@media (max-width: 1280px) {
+  .MuiTableCell-root {
+    max-width: 100px;
+  }
+  .select {
+    max-width: 100px;
+  }
+}
+@media (min-width: 600px) {
+  .header {
+    min-height: 45px !important;
+    background-color: rgb(0, 103, 134);
+  }
+}
+/*
+table {
+  height: 740px;
+} */
+
+html {
+  background-color: rgb(238, 238, 238);
+}
+.App {
+  background-color: rgb(238, 238, 238);
+}
+
+.select {
+  width: 140px;
+}
+
+.month0 {
+  background-color: azure;
+}
+
+.month3 {
+  background-color: aliceblue;
+}
+
+.month2 {
+  background-color: honeydew;
+}
+
+.month1 {
+  background-color: snow;
+}

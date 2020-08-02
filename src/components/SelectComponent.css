@@ -1,0 +1,7 @@
+.selected__value-container--has-value {
+  background-color: rgb(122, 195, 238);
+}
+
+.selected__value-container--has-value + div {
+  background-color: rgb(122, 195, 238);
+}
